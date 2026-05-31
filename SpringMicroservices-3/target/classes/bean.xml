@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    
+    <bean id="s1" class="com.demo.Student">
+    <property name="id" value="101"></property>
+    <property name="name" value="Sameer"></property>
+    <property name="age" value="22"></property>
+    <property name="address" value="Nashik"></property>
+    <property name="subject">
+    <array>
+    <value>Java</value>
+    <value>Python</value>
+    <value>C</value>
+    <value>C++</value>
+    </array>
+    
+    </property>
+     <property name="marks">
+    <list>
+    <value>78</value>
+    <value>85</value>
+    <value>99</value>
+    <value>87</value>
+    
+    </list>
+    </property>
+    
+    <property name="futurerole">
+    <array>
+    <value>Software Developer</value>
+    <value>AI Engineer</value>
+    <value>Hiring Manager</value>
+    </array>
+    </property>
+    
+    
+    </bean>
+    <bean id="s2" class="com.demo.Student">
+    <property name="id" value="102"></property>
+    <property name="name" value="Vijay"></property>
+    <property name="age" value="26"></property>
+    <property name="address" value="beed"></property>
+    <property name="subject">
+    <array>
+    <value>Spring Boot</value>
+    <value>Microservices</value>
+    <value>Data SCience</value>
+    <value>Web Development</value>
+    </array>
+    </property>
+    <property name="marks">
+    <list>
+    <value>87</value>
+    <value>95</value>
+    <value>99</value>
+    <value>100</value>
+    </list>
+    </property>
+    <property name="futurerole">
+    <array>
+    <value>Software Developer</value>
+    <value>AI Engineer</value>
+    <value>Hiring Manager</value>
+    </array>
+    </property>
+   
+    </bean>
+    <bean id="s3" class="com.demo.Student">
+    <property name="id" value="103"></property>
+    <property name="name" value="kailas"></property>
+    <property name="age" value="28"></property>
+    <property name="address" value="Jalna"></property>
+    <property name="subject">
+    <array>
+    <value>Data Structure</value>
+    <value>machine Leanrnign</value>
+    <value>PHP</value>
+    <value>AI</value>
+    </array>
+    </property>
+    <property name="marks">
+    <list>
+    <value>90</value>
+    <value>95</value>
+    <value>97</value>
+    <value>94</value>
+    </list>
+    </property>
+    <property name="futurerole">
+    <array>
+    <value>Software Developer</value>
+    <value>AI Engineer</value>
+    <value>Hiring Manager</value>
+    </array>
+    </property>
+    
+    </bean>
+
+</beans>
